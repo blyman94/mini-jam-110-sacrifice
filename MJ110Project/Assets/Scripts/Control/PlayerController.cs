@@ -20,6 +20,14 @@ public class PlayerController : MonoBehaviour
         Cursor.visible = false;
     }
 
+    public void OnInteractionInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            player.Interactor.Interact();
+        }
+    }
+
     public void OnMovementInput(InputAction.CallbackContext context)
     {
         if (context.performed)

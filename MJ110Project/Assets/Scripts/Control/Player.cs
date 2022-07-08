@@ -5,4 +5,5 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public Mover3D Mover3D;
+    public Interactor Interactor;
 }
