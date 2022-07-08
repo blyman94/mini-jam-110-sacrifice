@@ -9,6 +9,4 @@ public class ItemData : ScriptableObject
 
     [TextArea(5,5)]
     public string Description = "This is the item's description...";
-
-    public GameObject itemPrefab;
 }
