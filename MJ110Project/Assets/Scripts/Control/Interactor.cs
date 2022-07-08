@@ -7,6 +7,7 @@ public class Interactor : MonoBehaviour
 {
     [Header("Component References")]
     [SerializeField] private Camera mainCamera;
+    [SerializeField] private Transform modelSlot;
 
     [Header("Interaction Parameters")]
     [SerializeField] private float interactionDistance = 1.0f;
@@ -46,6 +47,7 @@ public class Interactor : MonoBehaviour
                     Debug.Log(string.Format("{0} was interacted with!",
                         foundItem.ItemData.Name));
                     selectedItemDescription.Value = foundItem.ItemData.Description;
+                    Instantiate(foundItem.ItemData.itemPrefab, modelSlot);
                     onItemSelectedEvent?.Invoke();
                 }   
             }

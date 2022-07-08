@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Rubber Duck
   Description: Quack, quack.
+  itemPrefab: {fileID: 132218, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
