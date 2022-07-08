@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Interactor : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class Interactor : MonoBehaviour
 
     [Header("ScriptableObject References")]
     [SerializeField] private StringVariable highlightedItemName;
+    [SerializeField] private StringVariable selectedItemDescription;
+
+    [Header("Unity Events")]
+    [SerializeField] private UnityEvent onItemSelectedEvent;
 
     private Ray interactionRay;
     private Item lastFoundItem;
@@ -33,11 +38,16 @@ public class Interactor : MonoBehaviour
         if (Physics.Raycast(interactionRay, out hit, interactionDistance,
             interactableLayers))
         {
-            // TODO: Change to get item data + display it
             if (hit.collider != null)
             {
-                Debug.Log(string.Format("{0} was interacted with!",
-                    hit.collider.name));
+                Item foundItem = hit.collider.GetComponent<Item>();
+                if (foundItem != null)
+                {
+                    Debug.Log(string.Format("{0} was interacted with!",
+                        foundItem.ItemData.Name));
+                    selectedItemDescription.Value = foundItem.ItemData.Description;
+                    onItemSelectedEvent?.Invoke();
+                }   
             }
         }
     }
