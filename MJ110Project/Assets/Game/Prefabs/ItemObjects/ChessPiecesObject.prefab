@@ -5153,6 +5153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce60e29832168944b9aafef3ec4cb41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ItemData: {fileID: 11400000, guid: 34c8e4f16167ff046bc113e0590e4cb8, type: 2}
+  activeEffectObject: {fileID: 2492575176181943114}
 --- !u!65 &2492575176438155070
 BoxCollider:
   m_ObjectHideFlags: 0

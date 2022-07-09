@@ -4917,6 +4917,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce60e29832168944b9aafef3ec4cb41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ItemData: {fileID: 11400000, guid: 56b51b709924d1f429e9b33b043c36dc, type: 2}
+  activeEffectObject: {fileID: 3128696281834456649}
 --- !u!65 &4575999254814540635
 BoxCollider:
   m_ObjectHideFlags: 0

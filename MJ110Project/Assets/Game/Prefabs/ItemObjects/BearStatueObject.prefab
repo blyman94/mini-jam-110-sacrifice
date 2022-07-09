@@ -5000,6 +5000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce60e29832168944b9aafef3ec4cb41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ItemData: {fileID: 11400000, guid: c472bf08c749041ca8a907ccdec47e0f, type: 2}
+  activeEffectObject: {fileID: 4613290647604735331}
 --- !u!65 &7612788324473875467
 BoxCollider:
   m_ObjectHideFlags: 0

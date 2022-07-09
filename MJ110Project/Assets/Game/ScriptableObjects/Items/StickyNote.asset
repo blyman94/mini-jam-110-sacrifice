@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a81b5de5a5dfb64a8681e0d0a231159, type: 3}
-  m_Name: Cube
+  m_Name: StickyNote
   m_EditorClassIdentifier: 
-  Name: Cube
-  Description: A cube.
-  itemPrefab: {fileID: 6505792733804474770, guid: 069813a79d9fbfa49a6c835e79911a41, type: 3}
+  Name: Sticky Note
+  Description: This is the item's description...
+  itemPrefab: {fileID: 7192567872548974122, guid: 95646c7645d54dc408c945bfa0a456a5, type: 3}

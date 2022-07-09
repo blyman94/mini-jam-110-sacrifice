@@ -1561,7 +1561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869722056650938905}
   m_Layer: 3
-  m_Name: CelloObjectMenuObject
+  m_Name: CelloMenuObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a81b5de5a5dfb64a8681e0d0a231159, type: 3}
-  m_Name: BearStatue
+  m_Name: Mug
   m_EditorClassIdentifier: 
-  Name: BearStatue
+  Name: Mug
   Description: This is the item's description...
-  itemPrefab: {fileID: 8844801160362297231, guid: 2779a2c7ca636fc40a945becf2300e41, type: 3}
+  itemPrefab: {fileID: 5006481135069334249, guid: 378b07f99f4e0cf4a922c494d4004d74, type: 3}
