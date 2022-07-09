@@ -20,6 +20,12 @@ public class PlayerController : MonoBehaviour
         Cursor.visible = false;
     }
 
+    public void UnlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+    }
+
     public void OnInteractionInput(InputAction.CallbackContext context)
     {
         if (context.started)
