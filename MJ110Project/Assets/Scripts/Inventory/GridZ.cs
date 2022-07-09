@@ -67,9 +67,10 @@ public class GridZ<TGridObject>
     
     public Vector3 GetWorldPosition(int x, int y)
     {
-        Debug.Log("Beta:" + originPoint.ToString());
-        Debug.Log("ALPHA: " + (new Vector3(x,0,y)*cellSize + originPoint).ToString());
-        return new Vector3(x,0,y)*cellSize + originPoint;
+        
+
+            return new Vector3(x, 0, y) * cellSize + originPoint;
+
     }
     public TextMesh createWorldText(string text, Transform parent,
         Vector3 localPosition, int fontSize,
@@ -147,7 +148,7 @@ public class GridZ<TGridObject>
 
     public TGridObject GetGridObject(int x, int y)
     {
-        if (x <= width && y <= height && x > 0 && y > 0)
+        if (x < width && y < height && x >= 0 && y >= 0)
         {
             return gridArray[x, y];
         }
