@@ -7,7 +7,7 @@ public class Interactor : MonoBehaviour
 {
     [Header("Component References")]
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private Transform modelSlot;
+    [SerializeField] private Transform modelSlotTransform;
 
     [Header("Interaction Parameters")]
     [SerializeField] private float interactionDistance = 1.0f;
@@ -16,9 +16,7 @@ public class Interactor : MonoBehaviour
     [Header("ScriptableObject References")]
     [SerializeField] private StringVariable highlightedItemName;
     [SerializeField] private StringVariable selectedItemDescription;
-
-    [Header("Unity Events")]
-    [SerializeField] private UnityEvent onItemSelectedEvent;
+    [SerializeField] private GameEvent itemSelectedEvent;
 
     private Ray interactionRay;
     private Item lastFoundItem;
@@ -44,15 +42,12 @@ public class Interactor : MonoBehaviour
                 Item foundItem = hit.collider.GetComponent<Item>();
                 if (foundItem != null)
                 {
-                    Debug.Log(string.Format("{0} was interacted with!",
-                        foundItem.ItemData.Name));
+                    // Debug.Log(string.Format("{0} was interacted with!",
+                    //     foundItem.ItemData.Name));
                     selectedItemDescription.Value = foundItem.ItemData.Description;
-                    if (modelSlot != null)
-                    {
-                        Instantiate(foundItem.ItemData.itemPrefab, modelSlot);
-                    }
-                    onItemSelectedEvent?.Invoke();
-                }
+                    Instantiate(foundItem.ItemData.itemPrefab, modelSlotTransform);
+                    itemSelectedEvent.Raise();
+                }   
             }
         }
     }
@@ -73,7 +68,7 @@ public class Interactor : MonoBehaviour
                 {
                     foundItem.HighlightTimer = 0.05f;
                     highlightedItemName.Value = foundItem.ItemData.Name;
-                }
+                } 
             }
         }
         else
