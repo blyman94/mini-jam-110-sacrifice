@@ -47,9 +47,12 @@ public class Interactor : MonoBehaviour
                     Debug.Log(string.Format("{0} was interacted with!",
                         foundItem.ItemData.Name));
                     selectedItemDescription.Value = foundItem.ItemData.Description;
-                    Instantiate(foundItem.ItemData.itemPrefab, modelSlot);
+                    if (modelSlot != null)
+                    {
+                        Instantiate(foundItem.ItemData.itemPrefab, modelSlot);
+                    }
                     onItemSelectedEvent?.Invoke();
-                }   
+                }
             }
         }
     }
@@ -70,7 +73,7 @@ public class Interactor : MonoBehaviour
                 {
                     foundItem.HighlightTimer = 0.05f;
                     highlightedItemName.Value = foundItem.ItemData.Name;
-                } 
+                }
             }
         }
         else
