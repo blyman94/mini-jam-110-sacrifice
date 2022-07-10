@@ -4951,7 +4951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce60e29832168944b9aafef3ec4cb41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemData: {fileID: 11400000, guid: 477a370a7763ba648b7103837529e2ed, type: 2}
+  ItemData: {fileID: 11400000, guid: 800e647ad460bfc4abebbccc7878287e, type: 2}
   itemCollider: {fileID: 4196698919120186307}
   graphics: {fileID: 664434925289401463}
   activeEffectObject: {fileID: 894939870393800236}

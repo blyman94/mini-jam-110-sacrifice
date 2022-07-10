@@ -16,11 +16,8 @@ MonoBehaviour:
   Description: This is the item's description...
   itemPrefab: {fileID: 0}
   Weight: 0
-  IconSprite: {fileID: 0}
+  IconSprite: {fileID: 21300000, guid: ffe659b763274ae40afaefdd552c4d04, type: 3}
   activeInScene: 1
-  AudioTrackIndex: 0
+  AudioTrackIndex: 8
   pickupSFXClip: {fileID: 0}
-  itemIcon: {fileID: 0}
-  itemName: 
-  itemDescription: 
   itemSize: {x: 0, y: 0}

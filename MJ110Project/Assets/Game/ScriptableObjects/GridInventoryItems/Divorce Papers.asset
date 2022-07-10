@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e237d29078776e4d8916300989ce46d, type: 3}
   m_Name: Divorce Papers
   m_EditorClassIdentifier: 
-  Name: New Item
+  Name: Divorce Papers
   Description: "Looks like she left some of the paper work behind. Legal documents,
     bills from her lawyer, even the Certificate of Service. There\u2019s also a copy
     of the divorce record. I guess she took the originals with her. The Certificate
