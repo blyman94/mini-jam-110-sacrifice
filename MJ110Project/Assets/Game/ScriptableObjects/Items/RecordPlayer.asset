@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a81b5de5a5dfb64a8681e0d0a231159, type: 3}
+  m_Name: RecordPlayer
+  m_EditorClassIdentifier: 
+  Name: Record Player
+  Description: This is the item's description...
+  itemPrefab: {fileID: 4009333458882270460, guid: 6a3079aed05233942b5477b07150c293, type: 3}
