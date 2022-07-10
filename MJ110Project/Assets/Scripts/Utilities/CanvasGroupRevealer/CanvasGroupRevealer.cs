@@ -190,7 +190,7 @@ public class CanvasGroupRevealer : MonoBehaviour
         canvasGroup.interactable = shownInteractable;
     }
 
-    private IEnumerator FadeOutGroupRoutine()
+    public IEnumerator FadeOutGroupRoutine()
     {
         float elapsedTime = 0.0f;
         float currentAlpha = canvasGroup.alpha;

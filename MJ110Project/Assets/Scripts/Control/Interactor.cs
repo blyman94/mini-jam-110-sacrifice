@@ -20,6 +20,7 @@ public class Interactor : MonoBehaviour
     [SerializeField] private StringVariable selectedItemDescription;
     [SerializeField] private AudioClipVariable currentAudioClip;
     [SerializeField] private GameEvent itemSelectedEvent;
+    [SerializeField] private GameEvent doorClickedEvent;
 
     private ItemData potentialItem;
     private Ray interactionRay;
@@ -59,6 +60,11 @@ public class Interactor : MonoBehaviour
                 Item foundItem = hit.collider.GetComponent<Item>();
                 if (foundItem != null)
                 {
+                    if (foundItem.ItemData.Name == "Exit")
+                    {
+                        doorClickedEvent.Raise();
+                        return;
+                    }
                     // Debug.Log(string.Format("{0} was interacted with!",
                     //     foundItem.ItemData.Name));
                     selectedItemDescription.Value = foundItem.ItemData.Description;
