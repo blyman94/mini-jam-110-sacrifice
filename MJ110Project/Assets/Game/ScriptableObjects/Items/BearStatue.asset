@@ -24,3 +24,5 @@ MonoBehaviour:
   Weight: 1.75
   IconSprite: {fileID: 21300000, guid: b0f9093efe02d7a42b746fcfcd579108, type: 3}
   activeInScene: 1
+  AudioTrackIndex: 0
+  pickupSFXClip: {fileID: 8300000, guid: 3d46d34088bd18743a824d98db3bcb7c, type: 3}

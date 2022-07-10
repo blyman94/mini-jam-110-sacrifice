@@ -81,7 +81,6 @@ public class MusicHandler : MonoBehaviour
 
     private IEnumerator MusicFadeOut(int index)
     {
-        Debug.Log("Called");
         float elapsedTime = 0.0f;
         float currentVolume = audioSources[index].volume;
 

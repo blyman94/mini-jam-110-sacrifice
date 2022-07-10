@@ -18,6 +18,7 @@ public class Interactor : MonoBehaviour
     [SerializeField] private StringVariable highlightedItemName;
     [SerializeField] private StringVariable selectedItemName;
     [SerializeField] private StringVariable selectedItemDescription;
+    [SerializeField] private AudioClipVariable currentAudioClip;
     [SerializeField] private GameEvent itemSelectedEvent;
 
     private ItemData potentialItem;
@@ -64,6 +65,7 @@ public class Interactor : MonoBehaviour
                     selectedItemName.Value = foundItem.ItemData.Name;
                     Instantiate(foundItem.ItemData.itemPrefab, modelSlotTransform);
                     potentialItem = foundItem.ItemData;
+                    currentAudioClip.Value = foundItem.ItemData.pickupSFXClip;
                     itemSelectedEvent.Raise();
                 }
             }

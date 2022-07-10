@@ -24,3 +24,4 @@ MonoBehaviour:
   IconSprite: {fileID: 21300000, guid: a874d8927f32c7d42ba64be266705185, type: 3}
   activeInScene: 1
   AudioTrackIndex: 7
+  pickupSFXClip: {fileID: 8300000, guid: 3d46d34088bd18743a824d98db3bcb7c, type: 3}

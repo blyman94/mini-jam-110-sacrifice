@@ -33,4 +33,6 @@ public class ItemData : ScriptableObject
     }
 
     public int AudioTrackIndex = 0;
+
+    public AudioClip pickupSFXClip;
 }
