@@ -15,3 +15,6 @@ MonoBehaviour:
   Name: Rubber Duck
   Description: This is the item's description...
   itemPrefab: {fileID: 1039463447562341161, guid: 17a42ea69c40efa47884f9230c75eb1e, type: 3}
+  Weight: 1
+  IconSprite: {fileID: 21300000, guid: e4a4227822f280940ad6d7fcf05f6381, type: 3}
+  activeInScene: 1

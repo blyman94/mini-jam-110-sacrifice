@@ -14,10 +14,12 @@ public class Interactor : MonoBehaviour
     [SerializeField] private LayerMask interactableLayers;
 
     [Header("ScriptableObject References")]
+    [SerializeField] private Inventory playerInventory;
     [SerializeField] private StringVariable highlightedItemName;
     [SerializeField] private StringVariable selectedItemDescription;
     [SerializeField] private GameEvent itemSelectedEvent;
 
+    private ItemData potentialItem;
     private Ray interactionRay;
     private Item lastFoundItem;
 
@@ -27,6 +29,19 @@ public class Interactor : MonoBehaviour
         RaycastScan();
     }
     #endregion
+
+    public void TryAddToInventory()
+    {
+        bool itemAdded = playerInventory.AddItem(potentialItem);
+        if (itemAdded)
+        {
+            //Debug.Log("Item added successfully.");
+        }
+        else
+        {
+            //Debug.Log("Item add failed.");
+        }
+    }
 
     public void Interact()
     {
@@ -46,8 +61,9 @@ public class Interactor : MonoBehaviour
                     //     foundItem.ItemData.Name));
                     selectedItemDescription.Value = foundItem.ItemData.Description;
                     Instantiate(foundItem.ItemData.itemPrefab, modelSlotTransform);
+                    potentialItem = foundItem.ItemData;
                     itemSelectedEvent.Raise();
-                }   
+                }
             }
         }
     }
@@ -68,7 +84,7 @@ public class Interactor : MonoBehaviour
                 {
                     foundItem.HighlightTimer = 0.05f;
                     highlightedItemName.Value = foundItem.ItemData.Name;
-                } 
+                }
             }
         }
         else
