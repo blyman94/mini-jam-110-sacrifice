@@ -25,3 +25,4 @@ MonoBehaviour:
   Weight: 1.75
   IconSprite: {fileID: 21300000, guid: 0e8fe87189c5df14684eb9b294022f0a, type: 3}
   activeInScene: 1
+  AudioTrackIndex: 5

@@ -24,3 +24,4 @@ MonoBehaviour:
   Weight: -1
   IconSprite: {fileID: 0}
   activeInScene: 1
+  AudioTrackIndex: -1
