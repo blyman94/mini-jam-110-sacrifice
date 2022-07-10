@@ -24,6 +24,7 @@ public class TetrisSlot : MonoBehaviour
     public TetrisInventory playerInventory; //14 slots for each line
     public List<TetrisItemSlot> itensInBag = new List<TetrisItemSlot>(); // itens in bag
 
+    public Inventory displayInventory;
     public int maxGridX;
     public int maxGridY;
 
@@ -81,13 +82,15 @@ public class TetrisSlot : MonoBehaviour
                 }
             }
         }
+        
 
         if (posItemNaBag.Count == (contX * contY)) // if item already in bag
         {
             TetrisItemSlot myItem = Instantiate(prefabSlot);
+            myItem.PlayerInventory = displayInventory;
             myItem.startPosition = new Vector2(posItemNaBag[0].x, posItemNaBag[0].y); //first position
             myItem.item = item; // get item
-            myItem.icon.sprite = item.itemIcon; //get icon
+            myItem.icon.sprite = item.IconSprite; //get icon
             myItem.GetComponent<RectTransform>().anchoredPosition = Vector2.zero; //change anchor position
             myItem.GetComponent<RectTransform>().anchorMax = new Vector2(0f, 1f);
             myItem.GetComponent<RectTransform>().anchorMin = new Vector2(0f, 1f);

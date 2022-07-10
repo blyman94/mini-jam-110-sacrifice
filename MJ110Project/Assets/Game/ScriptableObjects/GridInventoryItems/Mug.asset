@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e237d29078776e4d8916300989ce46d, type: 3}
+  m_Name: Mug
+  m_EditorClassIdentifier: 
+  Name: Coffee Mug
+  Description: "This one was always Charlotte\u2019s favorite mug. She would always
+    say something about how it wasn\u2019t the prettiest but it was the most comfortable.
+    It\u2019s a shame she couldn\u2019t take it with her, I know she wanted to.\r\n\nMaybe
+    I could take it instead and hold on to it. I could run into her one day and say,
+    \u201CRemember that mug? I still have it, if you want it back.\u201D It might
+    be wishful thinking, but at least it would remind us of the good times.\r\n"
+  itemPrefab: {fileID: 5006481135069334249, guid: 378b07f99f4e0cf4a922c494d4004d74, type: 3}
+  Weight: 0
+  IconSprite: {fileID: 21300000, guid: a874d8927f32c7d42ba64be266705185, type: 3}
+  activeInScene: 1
+  AudioTrackIndex: 0
+  pickupSFXClip: {fileID: 8300000, guid: 3d46d34088bd18743a824d98db3bcb7c, type: 3}
+  itemSize: {x: 1, y: 1}

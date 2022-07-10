@@ -4962,7 +4962,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1814971729401247199}
-  - component: {fileID: 2805274003325546551}
   - component: {fileID: 7612788324473875466}
   - component: {fileID: 7612788324473875467}
   m_Layer: 3
@@ -4989,20 +4988,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &2805274003325546551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7612788324473875464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 671e5adca4e0ce04fbfdec084fbab7af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  posToGo: {x: 0, y: 0, z: 0}
-  itemTetris: {fileID: 11400000, guid: 255262dda9294a741bd37e9f0ae40f60, type: 2}
 --- !u!114 &7612788324473875466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5015,7 +5000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce60e29832168944b9aafef3ec4cb41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemData: {fileID: 11400000, guid: c472bf08c749041ca8a907ccdec47e0f, type: 2}
+  ItemData: {fileID: 11400000, guid: 255262dda9294a741bd37e9f0ae40f60, type: 2}
   itemCollider: {fileID: 7612788324473875467}
   graphics: {fileID: 3629875226683709214}
   activeEffectObject: {fileID: 4613290647604735331}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e237d29078776e4d8916300989ce46d, type: 3}
+  m_Name: Cello
+  m_EditorClassIdentifier: 
+  Name: Cello
+  Description: "I can\u2019t believe Charlotte actually left this behind. I guess
+    she wasn\u2019t kidding when she said she wanted to \u201Cmove on completely.\u201D
+    When we were apartment hunting together for the first time she would make sure
+    each place had enough room for this behemoth. She really has grown past the girl
+    I once knew.\r\n\nI might not know how to play it, but I could learn. And it
+    would be a nice reminder of what once was. Someone has to remember our love,
+    right? Especially if she won\u2019t.\r\n"
+  itemPrefab: {fileID: 1869722056650938904, guid: 24c3eeeacdfdfe6468865a03e073dbc0, type: 3}
+  Weight: 0
+  IconSprite: {fileID: 0}
+  activeInScene: 1
+  AudioTrackIndex: 1
+  pickupSFXClip: {fileID: 8300000, guid: b06bf2d4392fbcd4c9b6f75faab11638, type: 3}
+  itemSize: {x: 2, y: 2}

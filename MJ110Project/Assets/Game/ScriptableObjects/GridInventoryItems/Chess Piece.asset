@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e237d29078776e4d8916300989ce46d, type: 3}
+  m_Name: Chess Piece
+  m_EditorClassIdentifier: 
+  Name: Dad's Chess Set
+  Description: "An old chessboard my dad gave me in high school. I loved playing
+    but fell out of practice over time. Chess was the one game I could get Charlotte
+    to play regularly. She wasn\u2019t great at it, but she thought it was more dignified
+    than the board games I brought home from time to time. I remember her winning
+    with ease one night. She had this look in her eyes when she looked down at all
+    the pieces she took from me.\r\n\nI think that it would look nice in the new
+    apartment. And I would like to have a reminder of dad back in the house. But
+    I don\u2019t think I want the white pieces. Those are Charlotte\u2019s. I can
+    find replacements to make something that\u2019s really my own.\r\n"
+  itemPrefab: {fileID: 8576041688122170764, guid: 8dc8bcb006ee1894aa5ba82e34283d55, type: 3}
+  Weight: 0
+  IconSprite: {fileID: 21300000, guid: 4e4fead3f01ad3d4aaf5da410b56e2f8, type: 3}
+  activeInScene: 1
+  AudioTrackIndex: 0
+  pickupSFXClip: {fileID: 8300000, guid: 8c150a47299c3544aa9ac7ad1ced2952, type: 3}
+  itemSize: {x: 1, y: 1}

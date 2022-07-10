@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e237d29078776e4d8916300989ce46d, type: 3}
+  m_Name: StickyNote
+  m_EditorClassIdentifier: 
+  Name: Sticky Note From Charlotte
+  Description: "A note Charlotte left for me. It reads:\r\n\r\nHey Ash, just wanted
+    to let you know that I\u2019m leaving this place for good. Anything still here
+    is up for grabs. It\u2019s either yours or stuff I couldn\u2019t bring with me.
+    No matter who it used to belong to, feel free to take it. My sister will be coming
+    by at the end of the month to take whatever you don\u2019t. Good luck and goodbye.\r\nCharlotte
+    \r\n\r\nHuh. No \u201CI love you\u201D at the end of it. I guess it really is
+    over.\r\n"
+  itemPrefab: {fileID: 7192567872548974122, guid: 95646c7645d54dc408c945bfa0a456a5, type: 3}
+  Weight: -1
+  IconSprite: {fileID: 0}
+  activeInScene: 1
+  AudioTrackIndex: -1
+  pickupSFXClip: {fileID: 8300000, guid: d84c8654596182b458a8f30c64271f41, type: 3}
+  itemSize: {x: 5, y: 5}

@@ -11,6 +11,7 @@ public class TetrisItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public Vector2 size = new Vector2(68f, 68f); //slot cell size 
     public TetrisItem item;
+    public Inventory PlayerInventory; 
 
     public Vector2 startPosition;
     public Vector2 oldPosition;
@@ -48,9 +49,9 @@ public class TetrisItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnPointerEnter(PointerEventData eventData) // shows item description
     {
-        Debug.Log(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.itemName);
-        string title = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.itemName;
-        string body = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.itemDescription;
+        Debug.Log(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.Name);
+        string title = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.Name;
+        string body = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.Description;
 
         Functionalities descript = FindObjectOfType<Functionalities>();
 
@@ -177,17 +178,13 @@ public class TetrisItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
             TetrisListItens itenInGame; // list of items prefab to could be instantiated when dropping item.
             itenInGame = FindObjectOfType<TetrisListItens>();
-
-            for(int t =0; t < itenInGame.prefabs.Length; t++)
-            {
-                if (itenInGame.itens[t].itemName == item.itemName) {
-                    Instantiate(itenInGame.prefabs[t].gameObject, new Vector2(player.transform.position.x + Random.Range(-1.5f,1.5f), player.transform.position.y + Random.Range(-1.5f, 1.5f)), Quaternion.identity); //dropa o item
-
+                
+                    item.ActiveInScene = true;
+                    PlayerInventory.RemoveItem(item);
                     Destroy(this.gameObject); 
-                    break;
-                }
+                    
+                
 
-            }
             
         }
         GetComponent<CanvasGroup>().blocksRaycasts = true; //register hit on item again

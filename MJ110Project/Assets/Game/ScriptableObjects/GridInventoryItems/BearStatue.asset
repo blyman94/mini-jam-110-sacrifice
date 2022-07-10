@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e237d29078776e4d8916300989ce46d, type: 3}
+  m_Name: BearStatue
+  m_EditorClassIdentifier: 
+  Name: New Item
+  Description: This is the item's description...
+  itemPrefab: {fileID: 8844801160362297231, guid: 2779a2c7ca636fc40a945becf2300e41, type: 3}
+  Weight: 0
+  IconSprite: {fileID: 4692396799190261489, guid: b110b86cac45b8c4caa4373ad24e4d44, type: 3}
+  activeInScene: 0
+  AudioTrackIndex: 0
+  pickupSFXClip: {fileID: 0}
+  itemSize: {x: 1, y: 2}
