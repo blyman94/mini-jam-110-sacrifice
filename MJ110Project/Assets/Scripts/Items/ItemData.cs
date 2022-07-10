@@ -11,4 +11,8 @@ public class ItemData : ScriptableObject
     public string Description = "This is the item's description...";
 
     public GameObject itemPrefab;
+
+    public int Weight;
+
+    public Sprite IconSprite;
 }
