@@ -21,6 +21,6 @@ MonoBehaviour:
     like our relationship was more serious, more adult. If I could, I would go back
     to that time.\r"
   itemPrefab: {fileID: 8844801160362297231, guid: 2779a2c7ca636fc40a945becf2300e41, type: 3}
-  Weight: 1
+  Weight: 1.75
   IconSprite: {fileID: 21300000, guid: b0f9093efe02d7a42b746fcfcd579108, type: 3}
   activeInScene: 1

@@ -22,4 +22,4 @@ MonoBehaviour:
   itemPrefab: {fileID: 8082309959869498683, guid: 8d386631584192f429ca0e4784470b5c, type: 3}
   Weight: 8
   IconSprite: {fileID: 21300000, guid: 332f6ff92b1e618479aba2ae58e79d15, type: 3}
-  activeInScene: 0
+  activeInScene: 1

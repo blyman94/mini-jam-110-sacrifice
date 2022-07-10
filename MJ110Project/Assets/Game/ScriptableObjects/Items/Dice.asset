@@ -21,6 +21,6 @@ MonoBehaviour:
     a place all to myself I could probably start running a game again. I could ask
     around the office and see if anyone is interested and maybe call up Keith.\r\n"
   itemPrefab: {fileID: 5182316145113723643, guid: 1a5d2a5c101135346a7f8fbcc4697681, type: 3}
-  Weight: 1
+  Weight: 1.75
   IconSprite: {fileID: 21300000, guid: 5e1d1bcf57377204fb81471a61b73ce5, type: 3}
   activeInScene: 1

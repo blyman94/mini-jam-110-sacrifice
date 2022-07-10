@@ -19,6 +19,6 @@ MonoBehaviour:
     just for playing with her brother\u2019s kids.\r\n\nMaybe this has a home in
     my new life, a life where fun doesn\u2019t have to be so serious all the time.\r\n"
   itemPrefab: {fileID: 4684543596929101281, guid: c9180c49e08b5a24b9f2e96c39bf267e, type: 3}
-  Weight: 1
+  Weight: 1.75
   IconSprite: {fileID: 21300000, guid: 8bf4f4d0dbd14a04088feec19c3119ec, type: 3}
   activeInScene: 1

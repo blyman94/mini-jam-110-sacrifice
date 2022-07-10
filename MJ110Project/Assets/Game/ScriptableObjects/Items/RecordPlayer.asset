@@ -21,6 +21,6 @@ MonoBehaviour:
     a \u201Climited musical perspective.\u201D I could branch out and prove her wrong.
     Hell, maybe it would prove I\u2019m more mature than she thinks.\r\n"
   itemPrefab: {fileID: 4009333458882270460, guid: 6a3079aed05233942b5477b07150c293, type: 3}
-  Weight: 1
+  Weight: 1.75
   IconSprite: {fileID: 21300000, guid: ffe659b763274ae40afaefdd552c4d04, type: 3}
-  activeInScene: 0
+  activeInScene: 1

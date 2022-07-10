@@ -13,7 +13,7 @@ public class ItemData : ScriptableObject
 
     public GameObject itemPrefab;
 
-    public int Weight;
+    public float Weight;
 
     public Sprite IconSprite;
 

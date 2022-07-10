@@ -23,6 +23,6 @@ MonoBehaviour:
     I don\u2019t think I want the white pieces. Those are Charlotte\u2019s. I can
     find replacements to make something that\u2019s really my own.\r\n"
   itemPrefab: {fileID: 8576041688122170764, guid: 8dc8bcb006ee1894aa5ba82e34283d55, type: 3}
-  Weight: 1
+  Weight: 1.75
   IconSprite: {fileID: 21300000, guid: 4e4fead3f01ad3d4aaf5da410b56e2f8, type: 3}
   activeInScene: 1
