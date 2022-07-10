@@ -22384,6 +22384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1500708911}
   - component: {fileID: 1500708910}
+  - component: {fileID: 1500708912}
   m_Layer: 0
   m_Name: FootstepAudioSource
   m_TagString: Untagged
@@ -22502,6 +22503,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1500708912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500708909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c146ba7baf86f42a112e782dda0e94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepSource: {fileID: 1500708910}
+  mover3D: {fileID: 6077674334988145253}
 --- !u!1 &1502536717
 GameObject:
   m_ObjectHideFlags: 0
@@ -34138,7 +34153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 6077674333702748274}
-  maxSpeed: 2
+  maxSpeed: 1.5
   acceleration: -1
 --- !u!4 &6077674334988145254
 Transform:
