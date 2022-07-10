@@ -1,0 +1,776 @@
+fileFormatVersion: 2
+guid: 0f26b1804d79e0b84e71ac36f50b2dfb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Item_DesertSteelIngot
+  - first:
+      213: -1301006063605132207
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_0
+  - first:
+      213: -1403548597588947459
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_1
+  - first:
+      213: 4524036079728006949
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_2
+  - first:
+      213: -2059930296907308611
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_3
+  - first:
+      213: 8706390179858556585
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_4
+  - first:
+      213: 3274469343748715992
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_5
+  - first:
+      213: 877269082110696084
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_6
+  - first:
+      213: 5700288013922297291
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_7
+  - first:
+      213: -3608573806325120779
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_8
+  - first:
+      213: 2677205640730858088
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_9
+  - first:
+      213: 4174707481248258119
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_10
+  - first:
+      213: -7522191607655014598
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_11
+  - first:
+      213: 6399656004000045791
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_12
+  - first:
+      213: -7752452070277981503
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_13
+  - first:
+      213: 6873735407342040982
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_14
+  - first:
+      213: -1224283884397446447
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_15
+  - first:
+      213: -2508097842670889611
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_16
+  - first:
+      213: -5434496103786751858
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_17
+  - first:
+      213: -5032737030640189978
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_18
+  - first:
+      213: -712052586535657565
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_19
+  - first:
+      213: -2203717645774695495
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_20
+  - first:
+      213: -2625353206177886780
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_21
+  - first:
+      213: -1669261253812327500
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_22
+  - first:
+      213: 4502140201098759291
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_23
+  - first:
+      213: 2867187899502530904
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_24
+  - first:
+      213: -2262373455740396904
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_25
+  - first:
+      213: 7030036783089074229
+    second: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 138
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ffed0fcc75b854e95cac6a3c2b4d69
+      internalID: -1301006063605132207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 129
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdda85c6fb97466439312cc5e0c9ca5f
+      internalID: -1403548597588947459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 110
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1fa2e8708477f49a7167bbb5e5b014
+      internalID: 4524036079728006949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 108
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b907593c38d7fea44b6cd4ed862d4861
+      internalID: -2059930296907308611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 104
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf7238327ec44a43a6c726231fd3877
+      internalID: 8706390179858556585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 76
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0f5d688b4fe4741848339666295811
+      internalID: 3274469343748715992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 76
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a878dd5e9711e34b8437ea37a5d8380
+      internalID: 877269082110696084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 75
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c37db2b0d8f7ee46b2924b98631e5b9
+      internalID: 5700288013922297291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 76
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b6cb365d76486479a708b8b608657f
+      internalID: -3608573806325120779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 77
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4e2dedc0f63ca419165e7337e5b2a9
+      internalID: 2677205640730858088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 76
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8200dcc629654b9458eb9f995dba7607
+      internalID: 4174707481248258119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 74
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ffa1276d87e7149aa8ea4dc5eb9683
+      internalID: -7522191607655014598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 76
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2149e71482a174846bd74ed2449d602a
+      internalID: 6399656004000045791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cc4490c666e704eb49fbeeec84ba97
+      internalID: -7752452070277981503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8058240ceafe6a4293fea735aab5f52
+      internalID: 6873735407342040982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 40
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb915e6b4f098474e95ed4ada1b82652
+      internalID: -1224283884397446447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 43
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0706e8b0334ab01428e6c92f244fea0c
+      internalID: -2508097842670889611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 43
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a194d69b0cdf2d6499596856b195cdcc
+      internalID: -5434496103786751858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 42
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b760e67383a4148ac62b21cc5be5a9
+      internalID: -5032737030640189978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016a753ab14e5f943aa90c56bda42a53
+      internalID: -712052586535657565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe315105797acd419299b37353e1f29
+      internalID: -2203717645774695495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 9
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380bc224c3d690c4d9acc8e27c4054e8
+      internalID: -2625353206177886780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 8
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743a18edf64364340bd0f26768757fc3
+      internalID: -1669261253812327500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 7
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6398eef29f0026346ad318799c3cdf0a
+      internalID: 4502140201098759291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 9
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48806986d4ce2246873cf1853e29633
+      internalID: 2867187899502530904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 6
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8783672143036045b4f0e84c6adf959
+      internalID: -2262373455740396904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_26
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 9
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079f1d29addc3e9458e215eec58e1d01
+      internalID: 7030036783089074229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 071c37cdd5688dd4a9d6604f0ae5a534
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_24: 2867187899502530904
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_14: 6873735407342040982
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_16: -2508097842670889611
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_20: -2203717645774695495
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_6: 877269082110696084
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_17: -5434496103786751858
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_9: 2677205640730858088
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_4: 8706390179858556585
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_22: -1669261253812327500
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_8: -3608573806325120779
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_1: -1403548597588947459
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_13: -7752452070277981503
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_5: 3274469343748715992
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_21: -2625353206177886780
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_11: -7522191607655014598
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_2: 4524036079728006949
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_19: -712052586535657565
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_25: -2262373455740396904
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_3: -2059930296907308611
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_10: 4174707481248258119
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_7: 5700288013922297291
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_26: 7030036783089074229
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_18: -5032737030640189978
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_15: -1224283884397446447
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_0: -1301006063605132207
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_12: 6399656004000045791
+      SpriteAtlasTexture-desert_items (Group 0)-256x256-fmt4_23: 4502140201098759291
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
