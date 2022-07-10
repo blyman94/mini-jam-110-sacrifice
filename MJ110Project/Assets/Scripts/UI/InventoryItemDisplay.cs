@@ -9,7 +9,7 @@ public class InventoryItemDisplay : MonoBehaviour
 
     public void PutItemBack()
     {
-        Debug.Log("Called");
+        //Debug.Log("Called");
         PlayerInventory.RemoveItem(RepresentedItem);
         RepresentedItem.ActiveInScene = true;
     }

@@ -35,11 +35,11 @@ public class Interactor : MonoBehaviour
         bool itemAdded = playerInventory.AddItem(potentialItem);
         if (itemAdded)
         {
-            Debug.Log("Item added successfully.");
+            //Debug.Log("Item added successfully.");
         }
         else
         {
-            Debug.Log("Item add failed.");
+            //Debug.Log("Item add failed.");
         }
     }
 
