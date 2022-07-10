@@ -31,4 +31,6 @@ public class ItemData : ScriptableObject
             SceneStateUpdated?.Invoke();
         }
     }
+
+    public int AudioTrackIndex = 0;
 }
