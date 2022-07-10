@@ -6,20 +6,8 @@ using UnityEngine;
 public class Inventory : ScriptableObject
 {
     public VariableUpdated variableUpdated;
-    [SerializeField] private List<ItemData> inventoryItems;
+    public List<ItemData> InventoryItems;
     [SerializeField] private int maxWeight;
-    public List<ItemData> InventoryItems
-    {
-        get
-        {
-            return inventoryItems;
-        }
-        set
-        {
-            inventoryItems = value;
-            variableUpdated?.Invoke();
-        }
-    }
 
     public int GetInventoryWeight()
     {
@@ -34,16 +22,27 @@ public class Inventory : ScriptableObject
         return inventoryWeight;
     }
 
-    public void AddItem(ItemData itemToAdd)
+    public bool AddItem(ItemData itemToAdd)
     {
         if (InventoryItems.Contains(itemToAdd))
         {
             Debug.Log("Warning: This item already exists in inventory.");
+            itemToAdd.ActiveInScene = true;
+            return false;
         }
+
         int newTotalWeight = GetInventoryWeight() + itemToAdd.Weight;
         if (newTotalWeight <= maxWeight)
         {
             InventoryItems.Add(itemToAdd);
+            variableUpdated?.Invoke();
+            itemToAdd.ActiveInScene = false;
+            return true;
+        }
+        else
+        {
+            itemToAdd.ActiveInScene = true;
+            return false;
         }
     }
 
@@ -52,6 +51,7 @@ public class Inventory : ScriptableObject
         if (InventoryItems.Contains(itemToRemove))
         {
             InventoryItems.Remove(itemToRemove);
+            variableUpdated?.Invoke();
         }
     }
 }

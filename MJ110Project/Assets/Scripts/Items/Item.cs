@@ -5,22 +5,24 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemData ItemData;
+    [SerializeField] private BoxCollider itemCollider;
+    [SerializeField] private GameObject graphics;
     [SerializeField] private GameObject activeEffectObject;
 
-    private bool isActive;
+    private bool isHighlighted;
 
     public float HighlightTimer { get; set; }
 
-    public bool IsActive
+    public bool IsHighlighted
     {
         get
         {
-            return isActive;
+            return isHighlighted;
         }
         set
         {
-            isActive = value;
-            if (isActive)
+            isHighlighted = value;
+            if (isHighlighted)
             {
                 Highlight();
             }
@@ -36,19 +38,27 @@ public class Item : MonoBehaviour
     {
         activeEffectObject.SetActive(false);
     }
+    private void OnEnable()
+    {
+        ItemData.SceneStateUpdated += UpdateSceneState;
+    }
+    private void OnDisable()
+    {
+        ItemData.SceneStateUpdated -= UpdateSceneState;
+    }
     private void Update()
     {
         if (HighlightTimer > 0.0f)
         {
-            if (!IsActive)
+            if (!IsHighlighted)
             {
-                IsActive = true;
+                IsHighlighted = true;
             }
             HighlightTimer -= Time.deltaTime;
         }
         else
         {
-            IsActive = false;
+            IsHighlighted = false;
         }
     }
     #endregion
@@ -61,5 +71,20 @@ public class Item : MonoBehaviour
     public void StopHighlight()
     {
         activeEffectObject.SetActive(false);
+    }
+
+    private void UpdateSceneState()
+    {
+        if (ItemData.ActiveInScene)
+        {
+            itemCollider.enabled = true;
+            graphics.SetActive(true);
+        }
+        else
+        {
+            itemCollider.enabled = false;
+            graphics.SetActive(false);
+            activeEffectObject.SetActive(false);
+        }
     }
 }

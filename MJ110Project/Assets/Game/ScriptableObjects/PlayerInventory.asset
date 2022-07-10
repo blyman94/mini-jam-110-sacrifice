@@ -12,8 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3966cdb991b2a094c9c7053721aa172f, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  inventoryItems:
-  - {fileID: 11400000, guid: 395d90b59abfeb944a61e361c84a737a, type: 2}
-  - {fileID: 11400000, guid: 0ee19e74e3bc52c45bff4d72c7662879, type: 2}
-  - {fileID: 11400000, guid: 6933e60a6b404554f86f438908b0c7ef, type: 2}
+  InventoryItems: []
   maxWeight: 15

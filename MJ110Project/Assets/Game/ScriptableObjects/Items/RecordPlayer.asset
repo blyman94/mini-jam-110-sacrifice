@@ -15,3 +15,6 @@ MonoBehaviour:
   Name: Record Player
   Description: This is the item's description...
   itemPrefab: {fileID: 4009333458882270460, guid: 6a3079aed05233942b5477b07150c293, type: 3}
+  Weight: 1
+  IconSprite: {fileID: 0}
+  activeInScene: 0

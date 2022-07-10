@@ -80,6 +80,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemData: {fileID: 11400000, guid: d693b388465c31746bcc0e002a6b79f8, type: 2}
+  itemCollider: {fileID: 8585574889841105151}
+  graphics: {fileID: 2385824380730743081}
   activeEffectObject: {fileID: 8134131825685336307}
 --- !u!65 &8585574889841105151
 BoxCollider:

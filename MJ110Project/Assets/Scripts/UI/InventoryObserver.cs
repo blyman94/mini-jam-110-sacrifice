@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class InventoryObserver : MonoBehaviour
 {
     [SerializeField] private Inventory observedInventory;
-    [SerializeField] private Transform inventoryPreviewParent;
-    [SerializeField] private GameObject itemPreviewDisplayPrefab;
+    [SerializeField] private Transform inventoryParent;
+    [SerializeField] private GameObject uiPrefab;
 
     #region MonoBehaviour Methods
     private void OnEnable()
@@ -31,19 +31,29 @@ public class InventoryObserver : MonoBehaviour
         DestroyAllChildren();
         foreach (ItemData itemData in observedInventory.InventoryItems)
         {
-            GameObject itemPreviewObject =
-                Instantiate(itemPreviewDisplayPrefab, inventoryPreviewParent);
+            GameObject itemObject =
+                Instantiate(uiPrefab, inventoryParent);
 
-            Image itemPreviewImage = itemPreviewObject.GetComponent<Image>();
-            itemPreviewImage.sprite = itemData.IconSprite;
+            Image itemImage = itemObject.GetComponent<Image>();
+            if (itemImage == null)
+            {
+                // We know we are working with the inventory screen here.
+                itemImage = 
+                    itemObject.transform.GetChild(1).GetComponent<Image>();
+
+                InventoryItemDisplay iid = itemObject.GetComponent<InventoryItemDisplay>();
+                iid.RepresentedItem = itemData;
+                iid.PlayerInventory = observedInventory;
+            }
+            itemImage.sprite = itemData.IconSprite;
         }
     }
 
     private void DestroyAllChildren()
     {
-        for (int i = inventoryPreviewParent.childCount - 1; i >= 0; i--)
+        for (int i = inventoryParent.childCount - 1; i >= 0; i--)
         {
-            Destroy(inventoryPreviewParent.GetChild(i).gameObject);
+            Destroy(inventoryParent.GetChild(i).gameObject);
         }
     }
 }
