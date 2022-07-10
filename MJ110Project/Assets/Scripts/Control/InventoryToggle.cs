@@ -7,6 +7,7 @@ public class InventoryToggle : MonoBehaviour
 {
     private bool inventoryOpen = false;
 
+    [SerializeField] private MenuModelRotator menuModelRotator;
     [SerializeField] private CanvasGroupRevealer inventoryCanvasGroupRevealer;
     [SerializeField] private PlayerInput playerInput;
 
@@ -26,19 +27,22 @@ public class InventoryToggle : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            if (inventoryOpen)
+            if (!menuModelRotator.IsInMenu)
             {
-                LockCursor();
-                playerInput.ActivateInput();
-                inventoryCanvasGroupRevealer.HideGroup();
-                inventoryOpen = false;
-            }
-            else
-            {
-                UnlockCursor();
-                playerInput.DeactivateInput();
-                inventoryCanvasGroupRevealer.ShowGroup();
-                inventoryOpen = true;
+                if (inventoryOpen)
+                {
+                    LockCursor();
+                    playerInput.ActivateInput();
+                    inventoryCanvasGroupRevealer.HideGroup();
+                    inventoryOpen = false;
+                }
+                else
+                {
+                    UnlockCursor();
+                    playerInput.DeactivateInput();
+                    inventoryCanvasGroupRevealer.ShowGroup();
+                    inventoryOpen = true;
+                }
             }
         }
     }
