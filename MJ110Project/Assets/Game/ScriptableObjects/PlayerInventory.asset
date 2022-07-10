@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InventoryItems: []
   maxWeight: 15
+  maxCount: 5
   itemPickupFailedWeightEvent: {fileID: 11400000, guid: 4bd0472c0179eb646a6be8a613f19dcc, type: 2}
   itemPickupFailedNAEvent: {fileID: 11400000, guid: e960ff8c48d90ce41bca977ef553bfd0, type: 2}
