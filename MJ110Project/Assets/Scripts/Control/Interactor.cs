@@ -16,6 +16,7 @@ public class Interactor : MonoBehaviour
     [Header("ScriptableObject References")]
     [SerializeField] private Inventory playerInventory;
     [SerializeField] private StringVariable highlightedItemName;
+    [SerializeField] private StringVariable selectedItemName;
     [SerializeField] private StringVariable selectedItemDescription;
     [SerializeField] private GameEvent itemSelectedEvent;
 
@@ -60,6 +61,7 @@ public class Interactor : MonoBehaviour
                     // Debug.Log(string.Format("{0} was interacted with!",
                     //     foundItem.ItemData.Name));
                     selectedItemDescription.Value = foundItem.ItemData.Description;
+                    selectedItemName.Value = foundItem.ItemData.Name;
                     Instantiate(foundItem.ItemData.itemPrefab, modelSlotTransform);
                     potentialItem = foundItem.ItemData;
                     itemSelectedEvent.Raise();

@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a81b5de5a5dfb64a8681e0d0a231159, type: 3}
   m_Name: Mask
   m_EditorClassIdentifier: 
-  Name: Mask
-  Description: mask mask mask mask mask
+  Name: Kitsune Mask
+  Description: "An old mask I picked up at a renaissance fair during college. That
+    was back before I met Charlotte. After we started dating I tried taking her to
+    one, but she was miserable. I haven\u2019t been since. \n\nI really miss those
+    days, when I could indulge my hobbies and interests without feeling guilty. Maybe
+    I should call up Keith and see if he still goes. I have a lot more time on my
+    hands now.\r"
   itemPrefab: {fileID: 8082309959869498683, guid: 8d386631584192f429ca0e4784470b5c, type: 3}
   Weight: 8
-  IconSprite: {fileID: 0}
-  activeInScene: 1
+  IconSprite: {fileID: 21300000, guid: 332f6ff92b1e618479aba2ae58e79d15, type: 3}
+  activeInScene: 0

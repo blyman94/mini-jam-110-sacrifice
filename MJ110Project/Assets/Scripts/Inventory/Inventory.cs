@@ -31,6 +31,14 @@ public class Inventory : ScriptableObject
             return false;
         }
 
+        if (itemToAdd.Weight == -1)
+        {
+            // TODO: Signal the player that they cant take this item.
+            Debug.Log("I can't keep that item!");
+            itemToAdd.ActiveInScene = true;
+            return false;
+        }
+
         int newTotalWeight = GetInventoryWeight() + itemToAdd.Weight;
         if (newTotalWeight <= maxWeight)
         {
@@ -41,6 +49,8 @@ public class Inventory : ScriptableObject
         }
         else
         {
+            // TODO: Signal the player that the item is too heavy.
+            Debug.Log("Not enough space!");
             itemToAdd.ActiveInScene = true;
             return false;
         }

@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: RecordPlayer
   m_EditorClassIdentifier: 
   Name: Record Player
-  Description: This is the item's description...
+  Description: "Charlotte\u2019s old record player. Before we moved in together I
+    had never owned one, I just used CDs or streaming services. But she was a real
+    vinyl purist. She bought new records regularly and would try and get me to understand
+    the appeal. I humored her but never really picked up on what made it special.
+    \r\n\nI could try and learn to appreciate it now. Charlotte always said I had
+    a \u201Climited musical perspective.\u201D I could branch out and prove her wrong.
+    Hell, maybe it would prove I\u2019m more mature than she thinks.\r\n"
   itemPrefab: {fileID: 4009333458882270460, guid: 6a3079aed05233942b5477b07150c293, type: 3}
   Weight: 1
-  IconSprite: {fileID: 0}
+  IconSprite: {fileID: 21300000, guid: ffe659b763274ae40afaefdd552c4d04, type: 3}
   activeInScene: 0
