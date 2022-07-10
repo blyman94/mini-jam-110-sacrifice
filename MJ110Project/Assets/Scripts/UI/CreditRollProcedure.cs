@@ -28,7 +28,7 @@ public class CreditRollProcedure : MonoBehaviour
         yield return gameOverScreen.FadeInGroupRoutine();
 
         yield return creditSlides[0].FadeInGroupRoutine();
-        yield return showTime;
+        yield return new WaitForSeconds(10);
         yield return creditSlides[0].FadeOutGroupRoutine();
 
 

@@ -6,11 +6,13 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Player player;
+    [SerializeField] private PlayerInput playerInput;
 
     #region MonoBehaviour Methods
     private void Start()
     {
-        LockCursor();
+        UnlockCursor();
+        playerInput.DeactivateInput();
     }
     #endregion
 

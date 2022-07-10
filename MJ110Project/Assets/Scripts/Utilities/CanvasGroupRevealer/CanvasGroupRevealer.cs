@@ -160,7 +160,7 @@ public class CanvasGroupRevealer : MonoBehaviour
         StartCoroutine(activeCoroutine);
     }
 
-    private void FadeOut()
+    public void FadeOut()
     {
         if (activeCoroutine != null)
         {

@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: StickyNote
   m_EditorClassIdentifier: 
   Name: Sticky Note From Charlotte
-  Description: "A note Charlotte left for me. It reads:\r\n\r\nHey Ash, just wanted
+  Description: "A note Charlotte left for me. It reads:\r\n\r\n<i>Hey Ash, just wanted
     to let you know that I\u2019m leaving this place for good. Anything still here
     is up for grabs. It\u2019s either yours or stuff I couldn\u2019t bring with me.
     No matter who it used to belong to, feel free to take it. My sister will be coming
     by at the end of the month to take whatever you don\u2019t. Good luck and goodbye.\r\nCharlotte
-    \r\n\r\nHuh. No \u201CI love you\u201D at the end of it. I guess it really is
-    over.\r\n"
+    </i>\n\r\nHuh. No \u201CI love you\u201D at the end of it. I guess it really
+    is over.\r\n"
   itemPrefab: {fileID: 7192567872548974122, guid: 95646c7645d54dc408c945bfa0a456a5, type: 3}
   Weight: -1
   IconSprite: {fileID: 0}
