@@ -8,10 +8,14 @@ public class Inventory : ScriptableObject
     public VariableUpdated variableUpdated;
     public List<ItemData> InventoryItems;
     [SerializeField] private int maxWeight;
+    [SerializeField] private int maxCount;
 
-    public int GetInventoryWeight()
+    [SerializeField] private GameEvent itemPickupFailedWeightEvent;
+    [SerializeField] private GameEvent itemPickupFailedNAEvent;
+
+    public float GetInventoryWeight()
     {
-        int inventoryWeight = 0;
+        float inventoryWeight = 0;
         if (InventoryItems.Count > 0)
         {
             foreach (ItemData itemData in InventoryItems)
@@ -31,7 +35,21 @@ public class Inventory : ScriptableObject
             return false;
         }
 
-        int newTotalWeight = GetInventoryWeight() + itemToAdd.Weight;
+        if (InventoryItems.Count == maxCount)
+        {
+            itemPickupFailedWeightEvent.Raise();
+            itemToAdd.ActiveInScene = true;
+            return false;
+        }
+
+        if (itemToAdd.Weight == -1)
+        {
+            itemPickupFailedNAEvent.Raise();
+            itemToAdd.ActiveInScene = true;
+            return false;
+        }
+
+        float newTotalWeight = GetInventoryWeight() + itemToAdd.Weight;
         if (newTotalWeight <= maxWeight)
         {
             InventoryItems.Add(itemToAdd);
@@ -41,6 +59,7 @@ public class Inventory : ScriptableObject
         }
         else
         {
+            itemPickupFailedWeightEvent.Raise();
             itemToAdd.ActiveInScene = true;
             return false;
         }

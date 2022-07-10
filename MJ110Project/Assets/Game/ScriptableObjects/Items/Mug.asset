@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a81b5de5a5dfb64a8681e0d0a231159, type: 3}
   m_Name: Mug
   m_EditorClassIdentifier: 
-  Name: Mug
-  Description: This is the item's description...
+  Name: Coffee Mug
+  Description: "This one was always Charlotte\u2019s favorite mug. She would always
+    say something about how it wasn\u2019t the prettiest but it was the most comfortable.
+    It\u2019s a shame she couldn\u2019t take it with her, I know she wanted to.\r\n\nMaybe
+    I could take it instead and hold on to it. I could run into her one day and say,
+    \u201CRemember that mug? I still have it, if you want it back.\u201D It might
+    be wishful thinking, but at least it would remind us of the good times.\r\n"
   itemPrefab: {fileID: 5006481135069334249, guid: 378b07f99f4e0cf4a922c494d4004d74, type: 3}
-  Weight: 1
+  Weight: 1.75
   IconSprite: {fileID: 21300000, guid: a874d8927f32c7d42ba64be266705185, type: 3}
   activeInScene: 1

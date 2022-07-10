@@ -8,12 +8,12 @@ public class ItemData : ScriptableObject
     public VariableUpdated SceneStateUpdated;
     public string Name = "New Item";
 
-    [TextArea(5, 5)]
+    [TextArea(10,10)]
     public string Description = "This is the item's description...";
 
     public GameObject itemPrefab;
 
-    public int Weight;
+    public float Weight;
 
     public Sprite IconSprite;
 

@@ -13,8 +13,15 @@ MonoBehaviour:
   m_Name: DivorcePapers
   m_EditorClassIdentifier: 
   Name: Divorce Papers
-  Description: This is the item's description...
+  Description: "Looks like she left some of the paper work behind. Legal documents,
+    bills from her lawyer, even the Certificate of Service. There\u2019s also a copy
+    of the divorce record. I guess she took the originals with her. The Certificate
+    of Service reads:\r\n\r\n<i>I hereby certify that I have served a copy of this
+    motion upon: Ash O\u2019Connell, 2101 Boylston Street, Boston, Massachusetts,
+    02116 by \u2013 delivery in hand on 1/17/2022 \u2013 mailing postage paid on
+    1/16/2022. \r\nFranklin Reid\r</i>\n\r\nAt least he was polite when he served
+    me the papers in-person.\r\n"
   itemPrefab: {fileID: 1504765785162087672, guid: 924baa7df6700da45b6816937f03641a, type: 3}
-  Weight: 1
+  Weight: -1
   IconSprite: {fileID: 0}
-  activeInScene: 0
+  activeInScene: 1

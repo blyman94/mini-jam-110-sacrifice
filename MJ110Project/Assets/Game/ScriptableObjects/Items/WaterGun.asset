@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: WaterGun
   m_EditorClassIdentifier: 
   Name: Water Gun
-  Description: This is the item's description...
+  Description: "A water gun I bought for the 4th of July one year. Charlotte\u2019s
+    nieces and nephews had a blast when I busted this bad boy out and joined their
+    game. She thought it was ridiculous that I wanted to own one, even if it was
+    just for playing with her brother\u2019s kids.\r\n\nMaybe this has a home in
+    my new life, a life where fun doesn\u2019t have to be so serious all the time.\r\n"
   itemPrefab: {fileID: 4684543596929101281, guid: c9180c49e08b5a24b9f2e96c39bf267e, type: 3}
-  Weight: 1
+  Weight: 1.75
   IconSprite: {fileID: 21300000, guid: 8bf4f4d0dbd14a04088feec19c3119ec, type: 3}
   activeInScene: 1
