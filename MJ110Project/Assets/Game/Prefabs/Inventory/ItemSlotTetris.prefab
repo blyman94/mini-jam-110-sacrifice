@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 34, y: 34}
+  m_SizeDelta: {x: 68, y: 68}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1217889394525461047
 CanvasRenderer:
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb4447516d446134c8725373d6e2c485, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 34, y: 34}
+  size: {x: 68, y: 68}
   item: {fileID: 0}
   startPosition: {x: 0, y: 0}
   oldPosition: {x: 0, y: 0}
@@ -183,7 +183,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 34, y: 34}
+  m_SizeDelta: {x: 68, y: 68}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &5255224585346468338
 CanvasRenderer:
@@ -314,8 +314,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 18, y: -23.1}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchoredPosition: {x: 34, y: -30}
+  m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4921968385450346748
 CanvasRenderer:

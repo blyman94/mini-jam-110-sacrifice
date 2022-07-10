@@ -29,7 +29,8 @@ public class Functionalities : MonoBehaviour //inventoryTab
 
     private InputAction Open;
 
-    private void Start()
+
+    /* private void Start()
     {
         //clean description
         image_atributte1.enabled = false;
@@ -47,6 +48,7 @@ public class Functionalities : MonoBehaviour //inventoryTab
         Open.performed += ctx => OpenInventory();
         Open.Enable();
     }
+    
 
     // Update is called once per frame
     void OpenInventory()
@@ -90,6 +92,7 @@ public class Functionalities : MonoBehaviour //inventoryTab
             image_atributte1.enabled = false;
 
     }
+    */
 }
 
 

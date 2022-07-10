@@ -22,9 +22,12 @@ public class Interactor : MonoBehaviour
     [SerializeField] private GameEvent itemSelectedEvent;
     [SerializeField] private GameEvent doorClickedEvent;
 
-    private ItemData potentialItem;
+    private TetrisItem potentialItem;
+
     private Ray interactionRay;
     private Item lastFoundItem;
+    public TetrisItem itemTetris;
+
 
     #region MonoBehaviour Methods
     private void Update()
@@ -36,6 +39,8 @@ public class Interactor : MonoBehaviour
     public void TryAddToInventory()
     {
         bool itemAdded = playerInventory.AddItem(potentialItem);
+        TetrisSlot.instanceSlot.addInFirstSpace(potentialItem); //add to the bag matrix.
+
         if (itemAdded)
         {
             //Debug.Log("Item added successfully.");

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class collectable : MonoBehaviour
+public class Collectable : MonoBehaviour
 {
     // enable pickingUp items (K)
     public Vector3 posToGo;

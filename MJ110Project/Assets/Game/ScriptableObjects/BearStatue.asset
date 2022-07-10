@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e237d29078776e4d8916300989ce46d, type: 3}
-  m_Name: Test Item
+  m_Name: BearStatue
   m_EditorClassIdentifier: 
-  itemID: asddsaaddsad
+  Name: New Item
+  Description: This is the item's description...
+  itemPrefab: {fileID: 8844801160362297231, guid: 2779a2c7ca636fc40a945becf2300e41, type: 3}
+  Weight: 0
+  IconSprite: {fileID: 0}
+  activeInScene: 0
   itemIcon: {fileID: -7522191607655014598, guid: 0f26b1804d79e0b84e71ac36f50b2dfb, type: 3}
   itemName: fasdfaf
   itemDescription: asdffa
-  usable: 0
-  currentStackSize: 0
-  MaxStackSize: 2
   itemSize: {x: 2, y: 2}
-  rarity: high
-  att1: 1
-  att1_icon: {fileID: -7522191607655014598, guid: 0f26b1804d79e0b84e71ac36f50b2dfb, type: 3}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public ItemData ItemData;
+    public TetrisItem ItemData;
     [SerializeField] private BoxCollider itemCollider;
     [SerializeField] private GameObject graphics;
     [SerializeField] private GameObject activeEffectObject;

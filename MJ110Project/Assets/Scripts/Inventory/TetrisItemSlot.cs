@@ -9,7 +9,7 @@ public class TetrisItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     //script with the items in the bag, drap and drop functions, reescaling based on item size.
     //This script is present in each collected item
 
-    public Vector2 size = new Vector2(34f, 34f); //slot cell size 
+    public Vector2 size = new Vector2(68f, 68f); //slot cell size 
     public TetrisItem item;
 
     public Vector2 startPosition;
@@ -51,12 +51,10 @@ public class TetrisItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         Debug.Log(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.itemName);
         string title = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.itemName;
         string body = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.itemDescription;
-        int attributte1 = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.getAtt1();
-        Sprite icon_attribute = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.getAtt1Icon();
-        string rarity = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<TetrisItemSlot>().item.rarity;
+
         Functionalities descript = FindObjectOfType<Functionalities>();
 
-        descript.changeDescription(title,body,attributte1,rarity,icon_attribute);
+       // descript.changeDescription(title,body,attributte1,rarity,icon_attribute);
         
     }
 
@@ -64,7 +62,7 @@ public class TetrisItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     {
         Functionalities descript = FindObjectOfType<Functionalities>();
 
-        descript.changeDescription("", "", 0,"");
+     //   descript.changeDescription("", "", 0,"");
 
     }
 
@@ -195,23 +193,5 @@ public class TetrisItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         GetComponent<CanvasGroup>().blocksRaycasts = true; //register hit on item again
     }
 
-    public void clicked()//if item was clicked in inventory
-    {
-        if (item.usable)
-        {
-            item.Use();
-            for (int i = 0; i < item.itemSize.y; i++) //through Y size of item
-            {
-                for (int j = 0; j < item.itemSize.x; j++) //through X size of item
-                {
-                    slots.grid[(int)startPosition.x + j, (int)startPosition.y + i] = 0; //clean the old item position                                                                   
-                }
-            }
-
-            Destroy(this.gameObject); //item drop
-            Functionalities descript = FindObjectOfType<Functionalities>();
-
-            descript.changeDescription("", "", 0, "");//clean description
-        }
-    }
+ 
 }

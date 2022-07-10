@@ -28,7 +28,7 @@ public class TetrisSlot : MonoBehaviour
     public int maxGridY;
 
     public TetrisItemSlot prefabSlot; // item prefab
-    Vector2 cellSize = new Vector2(34f, 34f); //slot cell size 
+    Vector2 cellSize = new Vector2(68f, 68f); //slot cell size 
 
     List<Vector2> posItemNaBag = new List<Vector2>(); // new item pos in bag matrix
 
@@ -40,7 +40,6 @@ public class TetrisSlot : MonoBehaviour
         maxGridY = 3;
 
         grid = new int[maxGridX, maxGridY]; // matrix of bag size
-        Debug.Log("AAAH");
     }
 
     public bool addInFirstSpace(TetrisItem item)

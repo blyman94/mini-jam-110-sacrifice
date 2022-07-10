@@ -12,7 +12,7 @@ public class TetrisListItens : MonoBehaviour
     {
         for(int i = 0; i < prefabs.Length; i++)
         {
-            itens.Add(prefabs[i].GetComponent<collectable>().itemTetris);
+            itens.Add(prefabs[i].GetComponent<Collectable>().itemTetris);
         }
     }
 
