@@ -7,6 +7,7 @@ public class TetrisSlot : MonoBehaviour
     //script of the inventory matrix to add/remove tetris items
     #region Singleton
     public static TetrisSlot instanceSlot;
+    
 
     void Awake()
     {
@@ -37,8 +38,8 @@ public class TetrisSlot : MonoBehaviour
     {
         playerInventory = FindObjectOfType<TetrisInventory>();
 
-        maxGridX = 3;
-        maxGridY = 3;
+        maxGridX = 2;
+        maxGridY = 2;
 
         grid = new int[maxGridX, maxGridY]; // matrix of bag size
     }
@@ -70,6 +71,7 @@ public class TetrisSlot : MonoBehaviour
                                 pos.x = i + sizeX;
                                 pos.y = j + sizeY;
                                 posItemNaBag.Add(pos);
+                                item.ActiveInScene = false;
                             } else {
                                 sizeX = contX;
                                 sizeY = contY;

@@ -181,6 +181,7 @@ public class TetrisItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
                 
                     item.ActiveInScene = true;
                     PlayerInventory.RemoveItem(item);
+                 
                     Destroy(this.gameObject); 
                     
                 

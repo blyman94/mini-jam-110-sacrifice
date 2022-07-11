@@ -38,17 +38,9 @@ public class Interactor : MonoBehaviour
 
     public void TryAddToInventory()
     {
-        bool itemAdded = playerInventory.AddItem(potentialItem);
         TetrisSlot.instanceSlot.addInFirstSpace(potentialItem); //add to the bag matrix.
 
-        if (itemAdded)
-        {
-            //Debug.Log("Item added successfully.");
-        }
-        else
-        {
-            //Debug.Log("Item add failed.");
-        }
+
     }
 
     public void Interact()
