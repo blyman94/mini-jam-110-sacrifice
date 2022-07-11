@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class InventoryToggle : MonoBehaviour
 {
-    private bool inventoryOpen = false;
+    public bool InventoryOpen = false;
 
     [SerializeField] private MenuModelRotator menuModelRotator;
     [SerializeField] private CanvasGroupRevealer inventoryCanvasGroupRevealer;
@@ -29,19 +29,19 @@ public class InventoryToggle : MonoBehaviour
         {
             if (!menuModelRotator.IsInMenu)
             {
-                if (inventoryOpen)
+                if (InventoryOpen)
                 {
                     LockCursor();
                     playerInput.ActivateInput();
                     inventoryCanvasGroupRevealer.HideGroup();
-                    inventoryOpen = false;
+                    InventoryOpen = false;
                 }
                 else
                 {
                     UnlockCursor();
                     playerInput.DeactivateInput();
                     inventoryCanvasGroupRevealer.ShowGroup();
-                    inventoryOpen = true;
+                    InventoryOpen = true;
                 }
             }
         }
