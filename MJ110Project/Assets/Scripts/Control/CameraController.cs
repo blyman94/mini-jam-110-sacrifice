@@ -14,6 +14,8 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float lookSensitivityX = 1;
     [SerializeField] private float lookSensitivityY = 1;
 
+    public bool Disabled { get; set; } = false;
+
     private float mouseX;
     private float mouseY;
     private float prevMouseX;
@@ -25,7 +27,8 @@ public class CameraController : MonoBehaviour
 
     private void CameraControl()
     {
-        if (!menuModelRotator.IsInMenu && !inventoryToggle.InventoryOpen)
+        if (!menuModelRotator.IsInMenu && 
+            !inventoryToggle.InventoryOpen && !Disabled)
         {
             mouseX += Input.GetAxis("Mouse X") * lookSensitivityY;
             mouseY += Input.GetAxis("Mouse Y") * lookSensitivityX * (invertYAxis ? 1 : -1);
